@@ -148,7 +148,7 @@ ul + .image-with-caption {
   box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 768px) {
   .symptoms {
     width: 95%;
   }
