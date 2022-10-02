@@ -147,6 +147,9 @@ ul + .image-with-caption {
   border-radius: 10px;
   box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.2);
 }
+audio {
+  margin: auto;
+}
 
 @media only screen and (max-width: 768px) {
   .symptoms {
