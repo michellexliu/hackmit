@@ -81,6 +81,10 @@ ul {
   width: 150%;
 }
 
+ul + .image-with-caption {
+  width: 50%;
+}
+
 .image-with-caption img {
   width: 100%;
 }

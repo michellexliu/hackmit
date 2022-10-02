@@ -14,3 +14,6 @@ function carousel() {
   x[myIndex - 1].style.display = "block";
   setTimeout(carousel, 6000);
 }
+
+var audio = new Audio("/assets/champions.mp3");
+audio.play();
