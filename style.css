@@ -56,14 +56,32 @@ ul {
   width: 50%;
 }
 
-.symptoms-content {
-  display: flex;
-  justify-content: center;
+.symptoms {
   width: 70%;
   margin: 0px auto;
 }
 
-.symptoms-content img {
+.symptoms-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  width: 100%;
+}
+
+.image-with-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150%;
+}
+
+.image-with-caption img {
+  width: 100%;
+}
+
+.symptoms-content > img {
   width: 50%;
 }
 
@@ -73,14 +91,23 @@ ul {
 }
 
 .famousSlide {
-  position: absolute;
+  position: relative;
   width: 40%;
 }
 
 .famousSlide img {
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
   height: 50vh;
+}
+
+.famousSlide p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2px;
+  background-color: dimgray;
+  color: white;
 }
 
 .ibs-fading {
