@@ -13,7 +13,13 @@
         <div class="layers-options">
           <p class="label">Layers:</p>
           <form id="layers" action="">
-            <input type="radio" name="layer" id="canvas" value="canvas" />
+            <input
+              type="radio"
+              name="layer"
+              id="canvas"
+              value="canvas"
+              checked
+            />
             <label for="canvas">Canvas</label><br />
             <input type="radio" name="layer" id="svg" value="svg" />
             <label for="svg">SVG</label><br />
@@ -24,16 +30,22 @@
         <div class="mode-options">
           <p class="label">Mode:</p>
           <form id="mode">
-            <input type="radio" name="select" id="select" value="select" />
+            <input
+              type="radio"
+              name="mode"
+              id="select"
+              value="select"
+              checked
+            />
             <label for="select"
               ><img src="assets/cursor.png" alt="cursor" /></label
             ><br />
-            <input type="radio" name="line" id="line" value="line" />
+            <input type="radio" name="mode" id="line" value="line" />
             <label for="line"><img src="assets/line.png" alt="line" /></label
             ><br />
-            <input type="radio" name="rect" id="rect" value="rect" />
+            <input type="radio" name="mode" id="rect" value="rect" />
             <label for="rect"><div class="rect-icon"></div></label><br />
-            <input type="radio" name="ellipse" id="ellipse" value="ellipse" />
+            <input type="radio" name="mode" id="ellipse" value="ellipse" />
             <label for="ellipse"><div class="ellipse-icon"></div></label><br />
           </form>
         </div>
