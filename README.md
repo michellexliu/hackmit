@@ -7,4 +7,4 @@ Viewable at https://michellexliu.me/hackmit/.
 
 Irritable Bowel Syndrome (IBS) is a serious health issue that affects millions of people. Hack for IBS aims to raise awareness for and destigmatize the living experiences of brave IBS warriors.
 
-This project was created by Michelles Liu & Zhu for HackMIT 2022 under the Education track.
+This project was created by Michelles Liu & Zhu during HackMIT 2022 for submission under the Education track.
