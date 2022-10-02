@@ -47,6 +47,10 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
+h2 {
+  margin-top: 5vh;
+}
+
 ul {
   margin: auto;
   text-align: auto;
@@ -123,4 +127,19 @@ ul {
   100% {
     opacity: 0;
   }
+}
+.shirts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0px auto;
+}
+.shirts a {
+  width: 48%;
+}
+.shirts img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: -1px 5px 20px rgba(0, 0, 0, 0.2);
 }
